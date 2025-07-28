@@ -7,17 +7,18 @@
 </head>
 
 <body>
-	<div>
-		<label for="firstName">First Name:</label>
+	<form onsubmit="submit(event)">
+		<label for="First Name">First Name:</label>
 		<input type="text" id="firstName" name="First Name"><br>
-		<label for="lastName">Last Name:</label>
+		<label for="Last Name">Last Name:</label>
 		<input type="text" id="lastName" name="Last Name"><br>
-		<label for="PhoneNumber">Phone Number:</label>
-		<input type="text" id="PhoneNumber" name="Phone Number"><br>
-		<label for="email">Email ID:</label>
+		<label for="Phone Number">Phone Number:</label>
+		<input type="tel" id="PhoneNumber" name="Phone Number"><br>
+		<label for="Email ID">Email ID:</label>
 		<input type="email" id="email" name="Email ID">
-	</div>
-	<button type="submit" onclick="submit()">Submit</button>
+		<button type="submit">Submit</button>
+	</form>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
